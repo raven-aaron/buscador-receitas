@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log
+
+# Variáveis de ambiente 
+.env
+
+# Vite / Build
+client/dist/
+
+# Sistema
+.DS_Store
+Thumbs.db
