@@ -1,11 +1,13 @@
 .card-receita {
-  border: 1px solid #b783c2;
+  border: 1px solid #d8c7c7;
   border-radius: 8px;
   padding: 16px;
   text-align: center;
-  background-color: #f8eee3;
+  background-color: #fffbfb;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-receita:hover {
@@ -23,5 +25,32 @@
 .titulo-receita {
   font-size: 18px;
   margin-top: 12px;
-  color: #333;
+  color: #0c2753;
+}
+
+.ingredientes-faltantes {
+  margin-top: auto;
+  text-align: left;
+  padding-top: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.titulo-ingredientes {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ef4444;
+  margin: 0 0 8px 0;
+}
+
+.ingredientes-faltantes ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ingredientes-faltantes li {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 4px;
+  text-transform: capitalize;
 }
