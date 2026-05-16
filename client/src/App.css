@@ -81,3 +81,10 @@ body {
   color: #64748b;
   font-weight: 500;
 }
+
+.estado-vazio {
+  text-align: center;
+  color: #64748b;
+  font-size: 18px;
+  margin-top: 40px;
+}

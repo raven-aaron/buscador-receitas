@@ -53,6 +53,10 @@ export default function App() {
 
       {carregando && <p className="mensagem-carregando">Searching for recipes...</p>}
 
+      {receitas.length === 0 && !carregando && !erro && (
+        <p className="estado-vazio">Enter your ingredients above to discover new recipes!</p>
+      )}
+
       <div className="grid-receitas">
         {receitas.map((receita) => (
           <RecipeCard key={receita.id} receita={receita} />
